@@ -1,3 +1,4 @@
+
 const limparFormulario = (endereco) =>{
     document.getElementById('endereco').value = '';
     document.getElementById('bairro').value = '';
@@ -18,9 +19,9 @@ const preencherFormulario = (endereco) =>{
 const pesquisarCep = async() => {    
     limparFormulario();
     
-    const cep = document.getElementById('cep').value;  //2º Passo, vai pegar o valor da celula  e pesquisar no via cep
+    const cep = document.getElementById('cep').value;  
     const url = `http://viacep.com.br/ws/${cep}/json/`;
-    const dados = await fetch(url);   // recebendo o resultado do feth
+    const dados = await fetch(url);   
     const endereco = await dados.json();  // pegamos o resultado e fazendo uma função json 
         if (endereco.hasOwnProperty('erro')){
             document.getElementById('endereco').value = 'CEP não encontrado!';
@@ -31,4 +32,3 @@ const pesquisarCep = async() => {
 
 document.getElementById('cep')   
         .addEventListener('focusout',pesquisarCep);  //1º Passo, pega o cep digitado e faça a pesquisar quando sair do focus//
-        
