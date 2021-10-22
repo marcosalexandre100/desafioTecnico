@@ -1,5 +1,3 @@
-'use strict';
-
 const limparFormulario = (endereco) =>{
     document.getElementById('endereco').value = '';
     document.getElementById('bairro').value = '';
@@ -33,3 +31,4 @@ const pesquisarCep = async() => {
 
 document.getElementById('cep')   
         .addEventListener('focusout',pesquisarCep);  //1º Passo, pega o cep digitado e faça a pesquisar quando sair do focus//
+        
