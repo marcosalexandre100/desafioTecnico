@@ -24,6 +24,7 @@ h1{
     color: white;
     margin-right: 40%;
     margin-top: 0;
+    font-size: 22px;
 }
 
 h2{
@@ -42,16 +43,19 @@ body{
   margin: 0 auto;
 }
 
-input, select{
+input{
     background: white;
     border: none;
     padding: 8px;
     border-radius: 5px;
     width: 100%;
 }
-
-#cpf, #rg, #sexo, #cep {
-    width: 30%;
+select {
+background: white;
+border: none;
+padding: 8px;
+border-radius: 5px;
+width: 103%;
 }
 
 label{

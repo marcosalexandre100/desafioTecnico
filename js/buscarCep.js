@@ -18,6 +18,7 @@ function meu_callback(conteudo) {
         //CEP não Encontrado.
         buscarCep();
         alert("CEP não encontrado.");
+        
     }
 }
 
@@ -54,6 +55,7 @@ document.getElementById('cep').onchange = function pesquisacep() {
             //cep é inválido.
             buscarCep();
             alert("Formato de CEP inválido.");
+            
         }
     } else {
         //cep sem valor, limpa formulário.

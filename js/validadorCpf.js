@@ -1,4 +1,8 @@
-
+// CPF ficticio 529.982.247-25  Validamos os ultimos numeros
+// Validação do primeiro dígito( 5 * 10 + 2 * 9 + 9 * 8 + 9 * 7 + 8 * 6 + 2 * 5 + 2 * 4 + 4 * 3 + 7 * 2)
+// (295*10) % 11 / resto da divisão 2
+/// Validação do segundo dígito(5 * 11 + 2 * 10 + 9 * 9 + 9 * 8 + 8 * 7 + 2 * 6 + 2 * 5 + 4 * 4 + 7 * 3 + 2 * 2)
+//(347*10) % 11 / resto da divisão 5
 
 function validaCpf(cpf = 0){
 
@@ -13,7 +17,7 @@ function validaCpf(cpf = 0){
 		document.getElementById('cpf').value = '';
 
     } else{
-        alert('Cpf valido')
+        alert('CPF valido')
     }
 }
 

@@ -1,3 +1,7 @@
+// acrescenta um caracter entre os numeros
+// JavaScript conta da posição 0 
+// CPF ficticio 529.982.247-25 
+
 function mascara_cpf(){
     var cpf = document.getElementById('cpf')
     if(cpf.value.length == 3 || cpf.value.length == 7){

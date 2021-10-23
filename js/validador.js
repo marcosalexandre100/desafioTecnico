@@ -1,3 +1,4 @@
+
     
     function validar() {
 
@@ -10,38 +11,38 @@
     var termo = document.getElementById("termo");
 
     if (nome.value == "") {
-        alert("É obrigatório informar o nome.");
+        alert("Por favor, informar o nome.");
         nome.focus();
         return false;
         
     }
 
     if (cpf.value == "") {
-        alert("É obrigatório informar o CPF.");
+        alert("Por favor, informar o CPF.");
         cpf.focus();
         return false;
     }
 
     if (endereco.value == "") {
-        alert("É obrigatório informar o endereço.")
+        alert("Por favor, informar o endereço.")
         endereco.focus();
         return false;
     }
 
     if (numero.value == "") {
-        alert("É obrigatório informar o número de endereço.")
+        alert("Por favor, informar o número de endereço.")
         numero.focus();
         return false;
     }
 
     if (celular.value == "") {
-        alert("É obrigatório informar o telefone de celular.")
+        alert("Por favor, informar o telefone de celular.")
        celular.focus();
         return false;
     }
 
     if (!termo.checked) {
-        alert("É preciso estar ciente com o Termo de Política de Privacidade e com a LGPD vigentes.")
+        alert("É preciso estar ciente com o Termo de Política de Privacidade do iti.")
         termo.focus();
         return false;
     }
