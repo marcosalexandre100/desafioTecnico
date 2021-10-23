@@ -1,4 +1,4 @@
-// acrescenta um caracter entre os numeros
+// acrescenta  caracter entre os numeros
 // JavaScript conta da posição 0 
 // CPF ficticio 529.982.247-25 
 

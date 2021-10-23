@@ -13,7 +13,7 @@ function validaCpf(cpf = 0){
     validaSegundoDigito(cpf);
 
     if (validaPrimeiroDigito(cpf) == false || validaSegundoDigito(cpf) == false){
-        alert('CPF Invalido, favor nos informar corretamente.')
+        alert('CPF Invalido, favor nos informe corretamente.')
 		document.getElementById('cpf').value = '';
 
     } else{
